@@ -1,5 +1,5 @@
 <!DOCTYPE CrossStudio_Project_File>
-<solution Name="STM32F767ZG" target="8" version="2">
+<solution Name="STM32F767ZI" target="8" version="2">
   <configuration Name="Common" arm_target_interface_type="SWD" />
   <configuration
     Name="Debug"
@@ -26,12 +26,12 @@
   <configuration
     Name="THUMB Release"
     inherited_configurations="THUMB;Release" />
-  <project Name="STM32F767ZG">
+  <project Name="STM32F767ZI">
     <configuration
       CMSIS_CORE="Yes"
       Name="Common"
       Placement="Flash"
-      Target="STM32F767ZG"
+      Target="STM32F767ZI"
       arm_architecture="v7EM"
       arm_core_type="Cortex-M7"
       arm_fp_abi="Soft"
@@ -42,7 +42,7 @@
       arm_linker_process_stack_size="1024"
       arm_linker_stack_size="512"
       arm_simulator_memory_simulation_filename="$(TargetsDir)/STM32/STM32SimulatorMemory$(HostDLL)"
-      arm_simulator_memory_simulation_parameter="STM32F767ZG;0x100000;0x80000"
+      arm_simulator_memory_simulation_parameter="STM32F767ZI;0x200000;0x80000"
       arm_target_loader_applicable_loaders="Flash"
       arm_target_loader_default_loader="Flash"
       arm_target_trace_interface_type="None"
@@ -51,7 +51,7 @@
       debug_restrict_memory_access="No"
       gcc_cplusplus_language_standard="gnu++11"
       gcc_enable_all_warnings="Yes"
-      linker_memory_map_file="$(TargetsDir)/STM32/STM32F767ZG_MemoryMap.xml"
+      linker_memory_map_file="$(TargetsDir)/STM32/STM32F767ZI_MemoryMap.xml"
       linker_printf_fmt_level="int"
       linker_printf_fp_enabled="Float"
       linker_scanf_fmt_level="int"

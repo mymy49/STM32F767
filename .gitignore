@@ -1,7 +1,7 @@
 /Debug/
-/STM32F767ZG THUMB Debug/
-/STM32F767ZG THUMB Release/
+/STM32F767ZI THUMB Debug/
+/STM32F767ZI THUMB Release/
 /.settings
 *.launch
 *.hzs
-
+/Release/
